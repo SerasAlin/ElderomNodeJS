@@ -1,0 +1,83 @@
+// Button Styles
+.btn {
+  @include heading-font;
+  font-weight: 700;
+  box-shadow: none;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-primary {
+  background-color: rgb(40,40,40);
+  border: none;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($gray-900, 7.5%) !important;
+    border-color: darken($gray-900, 7.5%) !important;
+    color: white;
+    border: none;
+    box-shadow: none;
+  }
+  &:active,
+  &:focus {
+    box-shadow: none;
+  }
+}
+#mainButton,#mainButton2{
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($gray-900, 7.5%) !important;
+    border-color: darken($gray-900, 7.5%) !important;
+    color: white;
+    border: none;
+    box-shadow: none;
+  }
+}
+#mainButton{
+  margin-top: 150px;
+}
+#menuButton{
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($gray-900, 7.5%) !important;
+    border-color: darken($gray-900, 7.5%) !important;
+    color: white;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  outline: black;
+  background-image: none;
+  margin-bottom: 200px;
+}
+
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+  margin-left: 70px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+  margin-left: -140px;
+}
+
+.img.img-fluid.d-block.mx-auto {
+  height: 50% !important;
+  -webkit-filter: none !important;
+  filter: none !important;
+}
