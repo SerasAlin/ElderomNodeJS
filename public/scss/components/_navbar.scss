@@ -7,7 +7,7 @@
     padding: 10px;
     text-transform: uppercase;
     color: white;
-    border: 0;
+    border: none;
     background-color: $gray-900;
     @include heading-font;
   }
@@ -79,7 +79,7 @@
     padding: 10px;
     text-transform: uppercase;
     color: white;
-    border: 0;
+    border: none;
     background-color: $gray-900;
     @include heading-font;
   }
