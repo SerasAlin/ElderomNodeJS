@@ -22,6 +22,42 @@ app.get('', (req, res) => {
     })
 })
 
+app.get('/page-top', (req, res) => {
+    res.render('index', {
+        
+    })
+})
+
+app.get('/servicii', (req, res) => {
+    res.render('index', {
+        
+    })
+})
+
+app.get('/portfolio', (req, res) => {
+    res.render('index', {
+        
+    })
+})
+
+app.get('/tehnologii', (req, res) => {
+    res.render('index', {
+        
+    })
+})
+
+app.get('/despre', (req, res) => {
+    res.render('index', {
+        
+    })
+})
+
+app.get('/contact', (req, res) => {
+    res.render('index', {
+        
+    })
+})
+
 app.get('/galerie/litere-volumetrice', (req, res) => {
     res.render('litereVolumetrice', {
        

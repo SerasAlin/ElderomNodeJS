@@ -10,6 +10,8 @@
         $('html, body').animate({
           scrollTop: (target.offset().top)
         }, 1000, "easeInOutExpo");
+        history.pushState('', '', this.hash.slice(1));
+        $('title').html('Elderom Cluj-Napoca' + '-' + this.hash.slice(1));
         return false;
       }
     }
