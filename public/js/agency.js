@@ -35,7 +35,8 @@
     if($("#mainNav").length){
       if ($("#mainNav").offset().top > 100) {
         $("#mainNav").addClass("navbar-shrink");
-        $(".nav-img").show();
+        $("#mainNav").show("navbar-shrink");
+        $(".nav-img").show(1000);
       } else {
         $("#mainNav").removeClass("navbar-shrink");
         $(".nav-img").hide();
