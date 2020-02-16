@@ -25,7 +25,8 @@ h6 {
 .page-section {
   padding: 100px 0; }
   .page-section h2.section-heading {
-    font-size: 40px;
+    font-weight: 900;
+    font-size: 35px;
     margin-top: 0;
     margin-bottom: 15px; }
   .page-section h3.section-subheading {
@@ -60,10 +61,18 @@ img::-moz-selection {
   font-style: normal; }
 
 #portfolio {
-  background: url("/img/cool-background (1).png"); }
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 79, 86, 0.1)), to(rgba(111, 111, 111, 0.2))), url("/img/cool-background (1).png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-#about {
-  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); }
+#despre {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 79, 86, 0.1)), to(rgba(103, 107, 114, 0.2))), url("/img/bk7.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .timeline:before {
   background-color: #f92a1f !important; }
@@ -86,8 +95,11 @@ li.nav-item.active {
   color: #f92a1f; }
 
 #galerie {
-  background: white;
-  background: radial-gradient(circle, white 0%, #4b4f56 100%); }
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 79, 86, 0.3)), to(rgba(111, 111, 111, 0.3))), url("/img/bk9.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .img-fluid {
   width: 100%;
@@ -102,6 +114,25 @@ li.nav-item.active {
 .img-fluid-about {
   max-width: 100%;
   height: auto; }
+
+#tehnologii {
+  background: white;
+  background: url("/img/bk8.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#servicii {
+  background: white;
+  background: url("/img/bk8.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#portfolioTitle {
+  margin-top: 25px; }
 
 .btn {
   font-family: "Times New Roman", Times, serif;
