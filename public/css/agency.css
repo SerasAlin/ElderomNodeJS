@@ -308,11 +308,13 @@ li.nav-item.active {
 .nav-img {
   height: 50px;
   width: auto;
-  display: none; }
+  display: none;
+  border-radius: 8px; }
 
 .nav-img-gallery {
   height: 50px;
-  width: auto; }
+  width: auto;
+  border-radius: 8px; }
 
 .nav-img-fixed {
   height: 50px;
@@ -428,7 +430,8 @@ header.masthead {
 
 .imgCustom {
   height: 100px;
-  width: auto; }
+  width: auto;
+  border-radius: 8px; }
 
 .service-heading {
   margin: 15px 0;

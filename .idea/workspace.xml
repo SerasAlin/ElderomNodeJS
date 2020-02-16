@@ -4,20 +4,8 @@
     <list default="true" id="4c573f49-45b0-4a92-b8d1-21bd1d488c36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/agency.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/cool-background (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/cool-background (1).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scss/base/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/base/_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/about.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/header.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/portfolio.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/portfolio.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/services.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/services.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/views/404.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/404.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/views/litereVolumetrice.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/litereVolumetrice.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/views/mobilier.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/mobilier.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/views/reclame.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/reclame.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/views/standuriExpo.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/standuriExpo.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/views/unicate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/unicate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/components/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/layout/_masthead.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/layout/_masthead.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/scss/base/_page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+            <state relative-caret-position="338">
+              <caret line="147" column="31" lean-forward="true" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/scss/components/_navbar.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -77,15 +74,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/partials/portfolio.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="81" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -121,11 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>../img/portfolio/StanduriExpo/23.jpg</find>
-      <find>.img-fluid-cli</find>
-      <find>#carouselExample3</find>
-      <find>.navbar-shrink</find>
-      <find>Nest</find>
       <find>map-image</find>
       <find>#message</find>
       <find>h5</find>
@@ -151,6 +134,11 @@
       <find>#galerie</find>
       <find>.gallery</find>
       <find>.mast</find>
+      <find>logo</find>
+      <find>.nav-img</find>
+      <find>border-radius:</find>
+      <find>.imgCustom</find>
+      <find>.nav-img-gallery</find>
     </findStrings>
     <replaceStrings>
       <replace>../img/portfolio/Mobilier/1.jpg</replace>
@@ -186,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/templates/views/reclame.hbs" />
         <option value="$PROJECT_DIR$/templates/partials/services.hbs" />
-        <option value="$PROJECT_DIR$/public/css/agency.css" />
         <option value="$PROJECT_DIR$/templates/partials/technologies.hbs" />
         <option value="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/templates/views/index.hbs" />
@@ -195,6 +182,9 @@
         <option value="$PROJECT_DIR$/templates/views/litereVolumetrice.hbs" />
         <option value="$PROJECT_DIR$/templates/partials/header.hbs" />
         <option value="$PROJECT_DIR$/public/scss/base/_page.scss" />
+        <option value="$PROJECT_DIR$/public/css/agency.css" />
+        <option value="$PROJECT_DIR$/public/scss/layout/_masthead.scss" />
+        <option value="$PROJECT_DIR$/public/scss/components/_navbar.scss" />
       </list>
     </option>
   </component>
@@ -347,15 +337,16 @@
       <workItem from="1581706201636" duration="1010000" />
       <workItem from="1581711236954" duration="11000" />
       <workItem from="1581762524377" duration="18325000" />
-      <workItem from="1581851662831" duration="12741000" />
+      <workItem from="1581851662831" duration="14276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43620000" />
+    <option name="totallyTimeSpent" value="45155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -383,9 +374,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/img/cool-background (1).png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -623,8 +611,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/scss/base/_page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+        <state relative-caret-position="338">
+          <caret line="147" column="31" lean-forward="true" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scss/components/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
         </state>
       </provider>
     </entry>
