@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{title}}</title>
+   {{>metas}}
+
+    <style>
+        .row{
+            margin-top: 100px;
+        }
+    </style>
+
+</head>
+<body id="galerie">
+{{>headerGallery}}
+<div class="galerie">
+<div data-aos="fade-up">
+    <div class="container">
+        <div class="row">
+            <div class="gallery">
+            </div>
+            {{#each data}}
+            <figure class="col-md-4">
+                <a class="black-text" href={{this.path}}
+                   data-size="1600x1067" target="_blank">
+                    <img alt="picture" src={{this.path}}
+                         class="img-fluid"/>
+                    <h3 class="text-center my-3 text-white">{{this.title}}</h3>
+                </a>
+            </figure>
+            {{/each}}
+        </div>
+    </div>
+</div>
+</div>
+{{>scripts}}
+<script src="/js/gallery.js"></script>
+</body>
+</html>
