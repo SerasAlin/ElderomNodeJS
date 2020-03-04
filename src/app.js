@@ -3,7 +3,6 @@ const express = require('express');
 const hbs = require('hbs');
 const app = express();
 const MongoClient = require('mongodb').MongoClient;
-const async = require("async");
 
 //Define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public');
