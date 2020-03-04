@@ -22,9 +22,12 @@ app.use(express.static(publicDirectoryPath));
 const uri = "mongodb+srv://SerasAlin:SerasAlin96@elderom-mqw6m.mongodb.net/test?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
+//heroku
+const port = process.env.PORT || 3000
+
 client.connect((err, database) => {
     db = database.db("elderom_cluj");
-    app.listen(3000, function () {
+    app.listen(port, function () {
     })
 });
 
