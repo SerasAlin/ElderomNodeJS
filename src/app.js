@@ -18,7 +18,7 @@ hbs.registerPartials(partialsPath);
 app.use(express.static(publicDirectoryPath));
 
 //DB stuff
-const uri = "mongodb+srv://SerasAlin:SerasAlin96@elderom-mqw6m.mongodb.net/test?retryWrites=true&w=majority";
+const uri = process.env.MONGODB_URI || "mongodb+srv://SerasAlin:SerasAlin96@elderom-mqw6m.mongodb.net/test?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 //heroku
