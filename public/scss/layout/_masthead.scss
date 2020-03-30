@@ -1,15 +1,24 @@
 // Styling for the masthead
 header.masthead {
-  text-align: center;
+  //background: -webkit-gradient(linear, left top, left bottom, from(rgba(40, 40, 40, 0.96)), to(rgba(40, 40, 40, 0.96))), url("/img/bg-masthead.jpg") no-repeat center center fixed;
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+  //background-size: cover;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
   color: white;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(40, 40, 40, 0.9)), to(rgba(40, 40, 40, 0.9))), url("/img/bg-masthead.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  height: 35%;
+  padding: 20px;
+  text-align: center;
   .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -21,7 +30,6 @@ header.masthead {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
-      margin-bottom: 25px;
       @include heading-font;
     }
   }
@@ -29,8 +37,6 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
@@ -47,6 +53,29 @@ header.masthead {
       }
     }
   }
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(103, 107, 114, 0.7)), to(rgba(111, 111, 111, 0.7))), url("/img/bg-masthead.jpg") no-repeat center center fixed;
+
+  /* Add the blur effect */
+  filter: blur(7px);
+  -webkit-filter: blur(7px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-size: cover;
 }
 
 .logo {
@@ -74,22 +103,22 @@ header.masthead {
 /* stuff for 1st word */
 .logo .word1 {
   color: red;
-  margin-right: -38px;
-  transform: rotateY(180deg);/* using Prefix free */
+  //margin-right: -38px;
+  //transform: rotateY(180deg);/* using Prefix free */
   display: inline-block;/* required for transform */
   z-index: 10;/* stack 1st word on top */
 }
 .logo .word1:before {
-  right: -4px;/* would be left, but we flipped the word */
-  top: -9px;
-  border-top-color: #282828;/* match background color */
-  border-right-color: #282828;/* would be left, but we flipped the word */
+  //right: -4px;/* would be left, but we flipped the word */
+  //top: -9px;
+  //border-top-color: rgb(40,40,40);/* match background color */
+  //border-right-color: rgb(40,40,40);/* would be left, but we flipped the word */
 }
 .logo .word1:after {
-  left: 17px;/* would be right, but we flipped the word */
-  bottom: -15px;
-  border-bottom-color: #282828;
-  border-left-color: #282828;/* would be right, but we flipped the word */
+  //left: 17px;/* would be right, but we flipped the word */
+  //bottom: -15px;
+  //border-bottom-color: rgb(40,40,40);
+  //border-left-color: rgb(40,40,40);/* would be right, but we flipped the word */
 }
 
 /* stuff for 2nd word */
@@ -97,16 +126,16 @@ header.masthead {
   z-index: 0;/* stack 2nd word below */
 }
 .logo .word2:before {
-  left: -4px;
-  top: -6px;
-  border-top-color: #282828;
-  border-left-color: #282828;
+  //left: -4px;
+  //top: -6px;
+  //border-top-color: rgb(40,40,40);
+  //border-left-color: rgb(40,40,40);
 }
 .logo .word2:after {
-  right: -4px;
-  bottom: 4px;
-  border-bottom-color: #282828;
-  border-right-color: #282828;
+  //right: -4px;
+  //bottom: 4px;
+  //border-bottom-color: rgb(40,40,40);
+  //border-right-color: rgb(40,40,40);
 }
 .imgCustom{
   height: 70px;

@@ -41,10 +41,10 @@
       if ($("#mainNav").offset().top > 100) {
         $("#mainNav").addClass("navbar-shrink");
         $("#mainNav").show("navbar-shrink");
-        $(".nav-img").show();
+        $(".nav-img").show(700);
       } else {
         $("#mainNav").removeClass("navbar-shrink");
-        $(".nav-img").hide();
+        $(".nav-img").hide(700);
       }
     }
   };

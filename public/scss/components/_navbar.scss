@@ -24,17 +24,27 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        font-size: 90%;
-        font-weight: 400;
+        font-size: 95%;
+        font-weight: 500;
         padding: 0.75em 0;
         letter-spacing: 1px;
         color: white;
+        text-decoration: none;
         @include heading-font;
-        &.active,
-        &:hover {
+        &.active{
           color: $primary;
         }
-      }
+        &:hover::after {
+          width: 100%;
+        }
+      }::after{
+               content: '';
+               display: block;
+               width: 0;
+               height: 2px;
+               background: $primary;
+               transition: width .3s;
+             }
     }
   }
 }
@@ -96,17 +106,27 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        font-size: 90%;
-        font-weight: 400;
+        font-size: 95%;
+        font-weight: 500;
         padding: 0.75em 0;
         letter-spacing: 1px;
         color: white;
+        text-decoration: none;
         @include heading-font;
-        &.active,
-        &:hover {
+        &.active{
           color: $primary;
         }
-      }
+        &:hover::after {
+          width: 100%;
+        }
+      }::after{
+         content: '';
+         display: block;
+         width: 0;
+         height: 2px;
+         background: $primary;
+         transition: width .3s;
+       }
     }
   }
 }
