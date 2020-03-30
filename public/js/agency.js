@@ -8,10 +8,15 @@
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: (target.offset().top)
+          scrollTop: (target.offset().top - 150)
         }, 1000, "easeInOutExpo");
         //history.pushState('', '', this.hash.slice(1));
-        $('title').html('Elderom Cluj-Napoca' + '-' + this.hash.slice(1));
+        // if(this.hash.slice(1) == "page-top"){
+        //   $('title').html('Elderom Cluj-Napoca');
+        // }
+        // else{
+        //   $('title').html('Elderom' + '-' + this.hash.slice(1));
+        // }
         return false;
       }
     }
@@ -25,7 +30,7 @@
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
-    offset: 56
+    offset: 300
   });
 
   $("#mainNavGallery").addClass("navbar-shrink");
@@ -36,7 +41,7 @@
       if ($("#mainNav").offset().top > 100) {
         $("#mainNav").addClass("navbar-shrink");
         $("#mainNav").show("navbar-shrink");
-        $(".nav-img").show(1000);
+        $(".nav-img").show();
       } else {
         $("#mainNav").removeClass("navbar-shrink");
         $(".nav-img").hide();

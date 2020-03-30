@@ -33,6 +33,7 @@
         "@fortawesome/fontawesome-free": "5.9.0",
         "aos": "^2.3.4",
         "async": "^3.1.1",
+        "express": "^4.16.4",
         "bootstrap": "4.3.1",
         "jquery": "3.4.1",
         "jquery.easing": "^1.4.1",
@@ -40,7 +41,8 @@
         "mdbootstrap": "^4.8.9",
         "mongodb": "^3.5.3",
         "node-sass-middleware": "^0.11.0",
-        "nodemon": "^2.0.2"
+        "nodemon": "^2.0.2",
+        "hbs": "^4.1.0"
     },
     "devDependencies": {
         "browser-sync": "2.26.7",

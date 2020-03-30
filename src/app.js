@@ -3,7 +3,6 @@ const express = require('express');
 const hbs = require('hbs');
 const app = express();
 const MongoClient = require('mongodb').MongoClient;
-const async = require("async");
 
 //Define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public');
@@ -19,12 +18,15 @@ hbs.registerPartials(partialsPath);
 app.use(express.static(publicDirectoryPath));
 
 //DB stuff
-const uri = "mongodb+srv://SerasAlin:SerasAlin96@elderom-mqw6m.mongodb.net/test?retryWrites=true&w=majority";
+const uri = process.env.MONGODB_URI || "mongodb+srv://SerasAlin:SerasAlin96@elderom-mqw6m.mongodb.net/test?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
+//heroku
+const port = process.env.PORT || 3000
 
 client.connect((err, database) => {
     db = database.db("elderom_cluj");
-    app.listen(3000, function () {
+    app.listen(port, function () {
     })
 });
 
@@ -43,7 +45,7 @@ app.get('/galerie/litere-volumetrice', async(req, res) => {
             res.render('litereVolumetrice',
                 {
                     data: result,
-                    title: "Elderom Cluj-Napoca-Litere-volumetrice"
+                    title: "Elderom-Litere-volumetrice"
                 })
         });
     } catch(err) {
@@ -60,7 +62,7 @@ app.get('/galerie/mobilier-iluminare',async(req, res) => {
             res.render('mobilier',
                 {
                     data: result,
-                    title: "Elderom Cluj-Napoca-Mobilier"
+                    title: "Elderom-Mobilier"
                 })
         });
     } catch(err) {
@@ -77,7 +79,7 @@ app.get('/galerie/panouri-reclame', async(req, res) => {
             res.render('reclame',
                 {
                     data: result,
-                    title: "Elderom Cluj-Napoca-Reclame"
+                    title: "Elderom-Reclame"
                 })
         });
     } catch(err) {
@@ -94,7 +96,7 @@ app.get('/galerie/standuri-expo-totemuri', async(req, res) => {
             res.render('standuriExpo',
                 {
                     data: result,
-                    title: "Elderom Cluj-Napoca-Standuri-Expo"
+                    title: "Elderom-Standuri-Expo"
                 })
         });
     } catch(err) {
@@ -111,7 +113,7 @@ app.get('/galerie/unicate-diverse', async(req, res) => {
             res.render('unicate',
                 {
                     data: result,
-                    title: "Elderom Cluj-Napoca-Unicate"
+                    title: "Elderom-Unicate"
                 })
         });
     } catch(err) {
