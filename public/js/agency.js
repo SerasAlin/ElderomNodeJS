@@ -8,7 +8,7 @@
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: (target.offset().top - 50)
+          scrollTop: (target.offset().top - 150)
         }, 1000, "easeInOutExpo");
         //history.pushState('', '', this.hash.slice(1));
         // if(this.hash.slice(1) == "page-top"){
@@ -41,7 +41,7 @@
       if ($("#mainNav").offset().top > 100) {
         $("#mainNav").addClass("navbar-shrink");
         $("#mainNav").show("navbar-shrink");
-        $(".nav-img").show(1000);
+        $(".nav-img").show();
       } else {
         $("#mainNav").removeClass("navbar-shrink");
         $(".nav-img").hide();

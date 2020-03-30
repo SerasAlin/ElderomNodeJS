@@ -78,15 +78,11 @@ img::-moz-selection {
 }
 
 #portfolio{
-  background: -webkit-gradient(linear, right top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("/img/cool-background (1).png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background:url("/img/cool-background (1).png") no-repeat center center fixed;
 }
 
 #despre{
-  background: -webkit-gradient(linear, right top, right bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("/img/bk7.jpg") no-repeat center center fixed;
+  background: -webkit-gradient(linear, right top, right bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("/img/bk7.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -130,14 +126,43 @@ li.nav-item.active {
 
 .img-fluid{
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   height: auto;
-  max-height: 300px;
+  max-height: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
+}
 
+.img-fluid-gallery{
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.img-fluid-merged{
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.img-fluid-atrium{
+  width: 100%;
+  height: auto;
+  max-height: 265px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
 }
 
 .img-fluid-about{
@@ -147,20 +172,22 @@ li.nav-item.active {
 
 #tehnologii{
   background: rgb(255,255,255);
-  background:-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4))), url("/img/bk10.jpg") no-repeat center center fixed;
+  background:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),url("/img/bk3.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding: 50px 0 !important;
 }
 
 #servicii{
   background: rgb(255,255,255);
-  background: url("/img/bk8.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding: 50px 0 !important;
+
 }
 
 #portfolioTitle{
