@@ -14,7 +14,7 @@ $(document).ready(function(){
     url = '/';
     }
     // Loop all menu items
-    $('.navbar-nav.text-uppercase.ml-auto li').each(function(){
+    $('.navbar-nav.ml-auto li').each(function(){
      // select href
      var href = $(this).find('a').attr('href');
      console.log(href)

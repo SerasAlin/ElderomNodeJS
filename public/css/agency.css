@@ -61,10 +61,14 @@ img::-moz-selection {
   font-style: normal; }
 
 #portfolio {
-  background: url("/img/cool-background (1).png") no-repeat center center fixed; }
+  background: -webkit-gradient(linear, right top, right bottom, from(rgba(40, 40, 40, 0.3)), to(rgba(40, 40, 40, 0.3))), url("/img/cool-background (1).png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 #despre {
-  background: -webkit-gradient(linear, right top, right bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("/img/bk7.jpg") no-repeat center center fixed;
+  background: -webkit-gradient(linear, right top, right bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("/img/bk7.jfif") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
