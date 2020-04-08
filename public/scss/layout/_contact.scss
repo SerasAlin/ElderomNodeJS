@@ -1,9 +1,6 @@
 // Styling for the contact section
 section#contact {
-  background-color: $gray-900;
-  background-image: url('../../img/map-image.png');
-  background-repeat: no-repeat;
-  background-position: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/img/contact.jpg") no-repeat center center fixed;
   color: white;
   .section-heading {
     color: $white;
@@ -12,14 +9,14 @@ section#contact {
     margin-bottom: 25px;
     input,
     textarea {
-      padding: 20px;
+      padding: 5px;
     }
     input.form-control {
       height: auto;
       background-color: white;
     }
     textarea.form-control {
-      height: 248px;
+      height: 159px;
       background-color: white;
     }
   }
