@@ -440,6 +440,11 @@ body, html {
   width: auto;
   background-image: linear-gradient(to bottom, transparent 0%, white 100%); }
 
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+  opacity: 100%;
+  margin-bottom: 25px; }
+
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
