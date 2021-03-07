@@ -723,7 +723,7 @@ body, html {
   height: 80px; }
 
 section#contact {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/img/contact.jpg") no-repeat center center fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.6))), url("/img/bk6.jpg") no-repeat center center fixed;
   color: white; }
   section#contact .section-heading {
     color: #fff; }
