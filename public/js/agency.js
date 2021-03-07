@@ -34,9 +34,10 @@
   });
 
   $("#mainNavGallery").addClass("navbar-shrink");
-
+  $("#mainNav").addClass("navbar-shrink");  
   // Collapse Navbar
   var navbarCollapse = function() {
+    if (!window.matchMedia('(max-width: 767px)').matches) {
     if($("#mainNav").length){
       if ($("#mainNav").offset().top > 100) {
         $("#mainNav").addClass("navbar-shrink");
@@ -47,6 +48,9 @@
         $(".nav-img").hide(700);
       }
     }
+  } else {
+  
+  }
   };
   // Collapse now if page is not at top
   navbarCollapse();

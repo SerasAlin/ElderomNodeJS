@@ -8,7 +8,17 @@
 
 .btn-xl {
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+
+@media(min-width:768px) {
+  .btn-xl {
+    font-size: 18px;
+    padding: 20px 40px;
+    margin-top: 100px;
+  }
+  
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -33,9 +43,7 @@
     border: none;
   }
 }
-#mainButton{
-  margin-top: 150px;
-}
+
 #menuButton{
   &:active,
   &:focus,
@@ -58,36 +66,6 @@
     border: none;
     box-shadow: none;
   }
-}
-a.carousel-control-prev{
-width: 0px;
-height: auto;
-}
-a.carousel-control-next{
-  width: 0px;
-  height: auto;
-  }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  outline: white;
-  background-image: none;
-  margin-bottom: 200px;
-}
-
-
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: white;
-  margin-left: 70px;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: white;
-  margin-left: -140px;
 }
 
 .img.img-fluid.d-block.mx-auto {
