@@ -58,6 +58,6 @@
         "gulp-uglify": "3.0.2",
         "hbs": "^4.1.0",
         "merge-stream": "2.0.0",
-        "node-sass": "^4.13.1"
+        "node-sass": "^7.0.0"
     }
 }
