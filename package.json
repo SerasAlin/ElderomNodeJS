@@ -45,7 +45,7 @@
         "hbs": "^4.1.0"
     },
     "devDependencies": {
-        "browser-sync": "2.26.7",
+        "browser-sync": "2.27.10",
         "del": "4.1.1",
         "express": "^4.16.4",
         "gulp": "^4.0.2",
